@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Schedule</title>
+</head>
+<body>
+<script type="text/javascript">
+    function ShowHideDiv() {
+        var ddlPassport = document.getElementById("ddlPassport");
+        var divtwelve = document.getElementById("divtwelve");
+        var divthirteen = document.getElementById("divthirteen");
+        var divfourteen = document.getElementById("divfourteen");
+        var divfifteen = document.getElementById("divfifteen");
+        var divsixteen = document.getElementById("divsixteen");
+        var divseventeen = document.getElementById("divseventeen");
+
+        divtwelve.style.display = ddlPassport.value == "12" ? "block" : "none";
+        divthirteen.style.display = ddlPassport.value == "13" ? "block" : "none";
+        divfourteen.style.display = ddlPassport.value == "14" ? "block" : "none";
+        divfifteen.style.display = ddlPassport.value == "15" ? "block" : "none";
+        divsixteen.style.display = ddlPassport.value == "16" ? "block" : "none";
+        divseventeen.style.display = ddlPassport.value == "17" ? "block" : "none";
+
+
+    }
+</script>
+<style type="text/css">
+  /* DivTable.com */
+  .divTable{
+  display: table;
+  width: 100%;
+  }
+  .divTableRow {
+  display: table-row;
+  }
+  .divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  }
+  .divTableCell, .divTableHead {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+  }
+  .divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+  }
+  .divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+  }
+  .divTableBody {
+  display: table-row-group;
+  }
+</style>
+<span>Select Date: </span>
+<select id = "ddlPassport" onchange = "ShowHideDiv()">
+  <option value="0">Select Date</option>
+  <option value="12">12 September 2016</option>
+  <option value="13">13 September 2016</option>
+  <option value="14">14 September 2016</option>
+  <option value="15">15 September 2016</option>
+  <option value="16">16 September 2016</option>
+  <option value="17">17 September 2016</option>
+
+</select>
+<hr />
+<div id="divtwelve" style="display: none">
+  12 September 2016
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">Pre-registration, License Control</div>
+        <div class="divTableCell">09:00 am - 03:00 pm</div>
+        <div class="divTableCell">Secretary of State Youth &amp; Sports</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Technical Meeting</div>
+        <div class="divTableCell">04:00 pm</div>
+        <div class="divTableCell">Secretary of State Youth &amp; Sports</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Welcoming Dinner</div>
+        <div class="divTableCell">06:00 pm</div>
+        <div class="divTableCell">Secretary of State Youth &amp; Sports</div>
+      </div>
+    </div>
+  </div>
+  <!-- DivTable.com -->
+
+</div>
+<div id="divthirteen" style="display: none">
+13 September 2016.
+Stage 1: Dili - Manatuto 82.5 km
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">First Convoy to Manatuto</div>
+        <div class="divTableCell">6:00 am</div>
+        <div class="divTableCell">Dili, Government Palace&nbsp;</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Call-up Riders and Technical Briefing</div>
+        <div class="divTableCell">6:30 am - 6:50 am</div>
+        <div class="divTableCell">Dili, Government Palace</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Opening words of Tour de Timor</div>
+        <div class="divTableCell">7:00 am</div>
+        <div class="divTableCell">Dili, Government Palace</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Start a Race</div>
+        <div class="divTableCell">7:15 am</div>
+        <div class="divTableCell">Dili, Government Palace&nbsp;</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Finish a Race</div>
+        <div class="divTableCell">02:15 am</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Cultural performance</div>
+        <div class="divTableCell">4:30 am</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Presentation for the 1st Stage</div>
+        <div class="divTableCell">5:00 pm</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Technical Briefing</div>
+        <div class="divTableCell">5:30 pm</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Dinner</div>
+        <div class="divTableCell">6:00 pm</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+    </div>
+  </div>
+  <!-- DivTable.com -->
+</div>
+<div id="divfourteen" style="display: none">
+  14th September 2016
+  Stage 2: Manatuto - Quelicai 92.5 km
+
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">Call-Up Riders and Technical Briefing</div>
+        <div class="divTableCell">06.30 am - 06.50 am&nbsp;</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Start Race</div>
+        <div class="divTableCell">07:00 am</div>
+        <div class="divTableCell">Manatuto</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Finish Race</div>
+        <div class="divTableCell">02:00 pm&nbsp;</div>
+        <div class="divTableCell">Quelicai</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Cultural performance</div>
+        <div class="divTableCell">04:30 pm</div>
+        <div class="divTableCell">Quelicai&nbsp;</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Presentation for the 2nd Stage</div>
+        <div class="divTableCell">05:00 pm&nbsp;</div>
+        <div class="divTableCell">Quelicai</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Technical Briefing</div>
+        <div class="divTableCell">05:30 pm&nbsp;</div>
+        <div class="divTableCell">Quelicai</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Dinner</div>
+        <div class="divTableCell">06:00 pm</div>
+        <div class="divTableCell">Quelicai</div>
+      </div>
+    </div>
+  </div>
+  <!-- DivTable.com -->
+
+</div>
+
+<div id="divfifteen" style="display: none">
+  15th September 2016
+  Stage 3:  Quelicai - Illiomar 83.5 km
+
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">Call-Up Riders and Technical Briefing</div>
+        <div class="divTableCell">06.30 am - 06.50 am&nbsp;</div>
+        <div class="divTableCell">Quelicai</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Start Race</div>
+        <div class="divTableCell">07:00 am</div>
+        <div class="divTableCell">Quelicai</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Finish Race</div>
+        <div class="divTableCell">02:00 pm&nbsp;</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Cultural performance</div>
+        <div class="divTableCell">04:30 pm</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Presentation for the 2nd Stage</div>
+        <div class="divTableCell">05:00 pm&nbsp;</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Technical Briefing</div>
+        <div class="divTableCell">05:30 pm&nbsp;</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Dinner</div>
+        <div class="divTableCell">06:00 pm</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+    </div>
+  </div>
+  <!-- DivTable.com -->
+</div>
+<div id="divsixteen" style="display: none">
+  16th September 2016
+  Stage 4: Illiomar -  Lospalos Villa 104 km
+
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">Call-Up Riders and Technical Briefing</div>
+        <div class="divTableCell">06.30 am - 06.50 am&nbsp;</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Start Race</div>
+        <div class="divTableCell">07:00 am</div>
+        <div class="divTableCell">Illiomar</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Finish Race</div>
+        <div class="divTableCell">02:00 pm&nbsp;</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Cultural performance</div>
+        <div class="divTableCell">04:30 pm</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Presentation for the 2nd Stage</div>
+        <div class="divTableCell">05:00 pm&nbsp;</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Technical Briefing</div>
+        <div class="divTableCell">05:30 pm&nbsp;</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Dinner</div>
+        <div class="divTableCell">06:00 pm</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+    </div>
+  </div>
+  <!-- DivTable.com -->
+  </div>
+  <!-- DivTable.com -->
+
+<div id="divseventeen" style="display: none">
+  17th September 2016
+  Stage 5: Lospalos Villa -  Baucau 88 km
+
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">Call-Up Riders and Technical Briefing</div>
+        <div class="divTableCell">06.30 am - 06.50 am&nbsp;</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Start Race</div>
+        <div class="divTableCell">07:00 am</div>
+        <div class="divTableCell">Lospalos</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Finish Race</div>
+        <div class="divTableCell">02:00 pm&nbsp;</div>
+        <div class="divTableCell">Baucau</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Presentation for the 2nd Stage</div>
+        <div class="divTableCell">03:00 pm&nbsp;</div>
+        <div class="divTableCell">Baucau</div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">Closing Ceremony</div>
+        <div class="divTableCell">03:30 pm&nbsp;</div>
+        <div class="divTableCell">Baucau</div>
+      </div>
+    </div>
+  </div>
+  <!-- DivTable.com -->
+  <!-- DivTable.com -->
+</div>
+
+
+</body>
+</html>
